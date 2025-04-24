@@ -7,31 +7,58 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
     body {
-      background-color: #f8f9fa;
+      background: linear-gradient(to right, #f0f2f5, #ffffff);
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
     .hero {
-      background: linear-gradient(to right, #4e54c8, #8f94fb);
+      background: linear-gradient(135deg, #3a0ca3, #4361ee);
       color: white;
-      padding: 4rem 1rem;
+      padding: 5rem 1rem;
       text-align: center;
     }
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
     .section {
-      padding: 3rem 1rem;
+      padding: 4rem 1rem;
+    }
+    .section h2 {
+      border-bottom: 2px solid #dee2e6;
+      padding-bottom: 0.5rem;
+      margin-bottom: 2rem;
+      color: #343a40;
     }
     .card {
       border: none;
-      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+      border-radius: 1rem;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+      transition: transform 0.2s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    footer {
+      background-color: #f1f3f5;
+    }
+    .btn-custom {
+      background-color: #ffffff22;
+      color: white;
+      border: 1px solid white;
+    }
+    .btn-custom:hover {
+      background-color: white;
+      color: #3a0ca3;
     }
   </style>
 </head>
 <body>
   <header class="hero">
-    <h1 class="display-4 fw-bold">Davi Rafael Silva</h1>
+    <h1>Davi Rafael Silva</h1>
     <p class="lead">Desenvolvedor e Analista de Dados</p>
-    <div class="d-flex justify-content-center gap-3 mt-3">
-      <a href="https://github.com/seu-usuario" class="btn btn-outline-light" target="_blank">GitHub</a>
-      <a href="https://www.linkedin.com/in/davirafaelsilva/" class="btn btn-outline-light" target="_blank">LinkedIn</a>
+    <div class="d-flex justify-content-center flex-wrap gap-3 mt-4">
+      <a href="https://github.com/davirafaells/DaviRafael" class="btn btn-custom" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/davirafaelsilva/" class="btn btn-custom" target="_blank">LinkedIn</a>
     </div>
   </header>
 
@@ -53,32 +80,32 @@
       <h2>Experiência Profissional</h2>
       <div class="row g-4">
         <div class="col-md-4">
-          <div class="card p-3">
-            <h5>Neogrid – Estagiário em Data Quality</h5>
-            <small>2024 - Atual</small>
-            <ul>
-              <li>Automação de análise de arquivos com Python e Pandas</li>
-              <li>Limpeza, padronização e integração de dados</li>
+          <div class="card p-4">
+            <h5>Neogrid</h5>
+            <small class="text-muted">Estagiário em Data Quality (2024 - Atual)</small>
+            <ul class="mt-2">
+              <li>Automação com Python e Pandas</li>
+              <li>Limpeza e padronização de dados</li>
             </ul>
           </div>
         </div>
         <div class="col-md-4">
-          <div class="card p-3">
-            <h5>Selsyn Tecnologia – Estagiário Suporte ao Cliente</h5>
-            <small>2024</small>
-            <ul>
-              <li>Atendimento técnico e integração com IoT</li>
-              <li>Documentação e treinamento de clientes</li>
+          <div class="card p-4">
+            <h5>Selsyn Tecnologia</h5>
+            <small class="text-muted">Estagiário Suporte ao Cliente (2024)</small>
+            <ul class="mt-2">
+              <li>Atendimento técnico e IoT</li>
+              <li>Documentação e treinamentos</li>
             </ul>
           </div>
         </div>
         <div class="col-md-4">
-          <div class="card p-3">
-            <h5>Santos Brasil – Aprendiz Suporte TI</h5>
-            <small>2022 - 2023</small>
-            <ul>
-              <li>Manutenção da infraestrutura de TI</li>
-              <li>Suporte e instalação de softwares</li>
+          <div class="card p-4">
+            <h5>Santos Brasil</h5>
+            <small class="text-muted">Aprendiz Suporte TI (2022 - 2023)</small>
+            <ul class="mt-2">
+              <li>Manutenção da infraestrutura</li>
+              <li>Instalação de softwares e suporte</li>
             </ul>
           </div>
         </div>
@@ -109,7 +136,7 @@
     </section>
   </main>
 
-  <footer class="bg-light text-center py-4">
+  <footer class="text-center py-4">
     <small>&copy; 2025 Davi Rafael Silva. Todos os direitos reservados.</small>
   </footer>
 </body>
