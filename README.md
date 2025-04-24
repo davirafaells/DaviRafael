@@ -29,7 +29,7 @@ Atualmente estou concentrado em estudos e desenvolvimento. Assim que os primeiro
 - 📧 Email: [davirafaels@hotmail.com](mailto:davirafaels@hotmail.com)  
 - 📞 WhatsApp: (48) 99918-2042  
 - 🔗 [LinkedIn](https://www.linkedin.com/in/davirafaelsilva/)  
-- 🐙 [GitHub](https://github.com/seu-usuario)
+- 🐙 [GitHub]([https://github.com/seu-usuario](https://github.com/davirafaells/DaviRafael?tab=readme-ov-file))
 
 ---
 
