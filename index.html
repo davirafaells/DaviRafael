@@ -2,50 +2,115 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Davi Rafael | Portfólio</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Davi Rafael Silva | Portfólio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f8f9fa;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .hero {
+      background: linear-gradient(to right, #4e54c8, #8f94fb);
+      color: white;
+      padding: 4rem 1rem;
+      text-align: center;
+    }
+    .section {
+      padding: 3rem 1rem;
+    }
+    .card {
+      border: none;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <h1>Davi Rafael Silva</h1>
-    <p>Desenvolvedor & Analista de Dados em formação</p>
-    <nav>
-      <a href="#sobre">Sobre</a>
-      <a href="#projetos">Projetos</a>
-      <a href="#contato">Contato</a>
-    </nav>
+  <header class="hero">
+    <h1 class="display-4 fw-bold">Davi Rafael Silva</h1>
+    <p class="lead">Desenvolvedor e Analista de Dados</p>
+    <div class="d-flex justify-content-center gap-3 mt-3">
+      <a href="https://github.com/seu-usuario" class="btn btn-outline-light" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/davirafaelsilva/" class="btn btn-outline-light" target="_blank">LinkedIn</a>
+    </div>
   </header>
 
-  <section id="sobre">
-    <h2>Sobre Mim</h2>
-    <p>Sou estudante de Análise e Desenvolvimento de Sistemas no IFSC (5º semestre), com experiência prática em suporte técnico, automação de dados com Python e desenvolvimento web. Estou sempre buscando aprender mais e crescer como profissional de tecnologia.</p>
-  </section>
+  <main class="container">
+    <section class="section">
+      <h2>Objetivo Profissional</h2>
+      <p>Busco uma oportunidade para atuar como Desenvolvedor ou Analista de Dados, aplicando minhas habilidades em Python, SQL, desenvolvimento web e Business Intelligence.</p>
+    </section>
 
-  <section id="projetos">
-    <h2>Projetos</h2>
-    <p>🚧 Ainda estou construindo meus projetos. Em breve, você encontrará aqui exemplos práticos do que estou aprendendo e desenvolvendo nas áreas de:</p>
-    <ul>
-      <li>Python e análise de dados</li>
-      <li>Desenvolvimento web</li>
-      <li>Business Intelligence</li>
-      <li>Banco de dados e automação</li>
-    </ul>
-    <p>Fique à vontade para voltar depois e acompanhar meu progresso!</p>
-  </section>
+    <section class="section">
+      <h2>Formação Acadêmica</h2>
+      <ul>
+        <li>Análise e Desenvolvimento de Sistemas – IFSC – Em andamento (5/6)</li>
+        <li>Técnico em Informática Integrado ao Ensino Médio – IFSC – Concluído</li>
+      </ul>
+    </section>
 
-  <section id="contato">
-    <h2>Contato</h2>
-    <ul>
-      <li>📧 Email: <a href="mailto:davirafaels@hotmail.com">davirafaels@hotmail.com</a></li>
-      <li>📞 WhatsApp: (48) 99918-2042</li>
-      <li>🔗 <a href="https://www.linkedin.com/in/davirafaelsilva/" target="_blank">LinkedIn</a></li>
-      <li>🐙 <a href="https://github.com/seu-usuario" target="_blank">GitHub</a></li>
-    </ul>
-  </section>
+    <section class="section">
+      <h2>Experiência Profissional</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card p-3">
+            <h5>Neogrid – Estagiário em Data Quality</h5>
+            <small>2024 - Atual</small>
+            <ul>
+              <li>Automação de análise de arquivos com Python e Pandas</li>
+              <li>Limpeza, padronização e integração de dados</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card p-3">
+            <h5>Selsyn Tecnologia – Estagiário Suporte ao Cliente</h5>
+            <small>2024</small>
+            <ul>
+              <li>Atendimento técnico e integração com IoT</li>
+              <li>Documentação e treinamento de clientes</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card p-3">
+            <h5>Santos Brasil – Aprendiz Suporte TI</h5>
+            <small>2022 - 2023</small>
+            <ul>
+              <li>Manutenção da infraestrutura de TI</li>
+              <li>Suporte e instalação de softwares</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
 
-  <footer>
-    <p>© 2025 Davi Rafael. Todos os direitos reservados.</p>
+    <section class="section">
+      <h2>Habilidades</h2>
+      <ul>
+        <li>Python (Pandas), Java, JavaScript, PHP</li>
+        <li>SQL (MySQL, PostgreSQL)</li>
+        <li>Automação e ETL com Pandas</li>
+        <li>Git/GitHub, Scrum, redes</li>
+      </ul>
+    </section>
+
+    <section class="section">
+      <h2>Certificados</h2>
+      <ul>
+        <li>Yellow Belt em Lean Six Sigma</li>
+        <li>20º Latinoware – Congresso de Software Livre</li>
+      </ul>
+    </section>
+
+    <section class="section text-center">
+      <h2>Projetos</h2>
+      <p class="text-muted">Em breve estarei adicionando meus projetos pessoais aqui.</p>
+    </section>
+  </main>
+
+  <footer class="bg-light text-center py-4">
+    <small>&copy; 2025 Davi Rafael Silva. Todos os direitos reservados.</small>
   </footer>
 </body>
 </html>
