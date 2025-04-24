@@ -1,36 +1,29 @@
-# 👨‍💻 Davi Rafael Silva
+# 🌐 Portfólio - Davi Rafael Silva
 
-🎓 Estudante de Análise e Desenvolvimento de Sistemas (5º semestre) no IFSC  
-💼 Experiência com Data Quality, Suporte Técnico e Desenvolvimento Web  
-📈 Apaixonado por dados, automações e criar soluções eficientes  
-🔍 Sempre buscando aprender algo novo!
+Bem-vindo ao meu portfólio pessoal! Aqui você encontra um resumo da minha trajetória como **Desenvolvedor e Analista de Dados**, além de informações sobre formação, experiências, habilidades e certificados.
 
----
+## 🔗 Acesse online
+> 💻 [Clique aqui para ver o site publicado](https://seu-usuario.github.io/seu-repo)
 
-## 📂 Sobre este portfólio
+## 📁 Estrutura do Projeto
+Este projeto é feito com **HTML5**, **CSS3** e **Bootstrap 5**, totalmente responsivo e preparado para futuras atualizações com projetos reais.
 
-Este repositório é dedicado ao meu portfólio de projetos. Estou em fase de desenvolvimento e organização das minhas ideias, e em breve este espaço será atualizado com:
+- `index.html` → Página principal do portfólio.
+- CSS está embutido no HTML para facilitar deploy via GitHub Pages.
 
-- Scripts de automação com Python e Pandas  
-- Dashboards e relatórios em BI  
-- Projetos web simples com HTML, CSS e JS  
-- Exercícios acadêmicos e experimentações com novas tecnologias
+## 📌 Sobre Mim
+Busco oportunidades para atuar nas áreas de desenvolvimento ou análise de dados, utilizando Python, SQL, automações e BI. Estou sempre em busca de desafios para crescer profissionalmente.
 
----
+## 🛠️ Tecnologias e Habilidades
+- Linguagens: Python (Pandas), Java, JavaScript, PHP
+- Banco de Dados: SQL (MySQL, PostgreSQL)
+- Ferramentas: Git/GitHub, Scrum, automação com Pandas
+- Outras: Noções de redes, suporte técnico e IoT
 
-## 🚧 Projetos em construção
-
-Atualmente estou concentrado em estudos e desenvolvimento. Assim que os primeiros projetos estiverem prontos, eles aparecerão aqui!
-
----
-
-## 📬 Contato
-
-- 📧 Email: [davirafaels@hotmail.com](mailto:davirafaels@hotmail.com)  
-- 📞 WhatsApp: (48) 99918-2042  
-- 🔗 [LinkedIn](https://www.linkedin.com/in/davirafaelsilva/)  
-- 🐙 [GitHub]([https://github.com/seu-usuario](https://github.com/davirafaells/DaviRafael?tab=readme-ov-file))
+## 📞 Contato
+- [LinkedIn](https://www.linkedin.com/in/davirafaelsilva/)
+- Email: davirafaels@hotmail.com
 
 ---
 
-> “A curiosidade sobre a vida em todos os seus aspectos é o segredo das pessoas criativas.” – Leo Burnett
+Feito com 💙 por **Davi Rafael Silva**
