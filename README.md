@@ -3,7 +3,7 @@
 Bem-vindo ao meu portfólio pessoal! Aqui você encontra um resumo da minha trajetória como **Desenvolvedor e Analista de Dados**, além de informações sobre formação, experiências, habilidades e certificados.
 
 ## 🔗 Acesse online
-> 💻 [Clique aqui para ver o site publicado](https://seu-usuario.github.io/seu-repo)
+> 💻 [Clique aqui para ver o site publicado](https://davirafaells.github.io/DaviRafael/)
 
 ## 📁 Estrutura do Projeto
 Este projeto é feito com **HTML5**, **CSS3** e **Bootstrap 5**, totalmente responsivo e preparado para futuras atualizações com projetos reais.
